@@ -1,0 +1,250 @@
+.heading {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0px 30px;
+    color: #6a53ea;
+    margin: 20px 0px;
+}
+.headingText {
+    /* color: #6a53ea; */
+    padding: 0px 30px;
+    font-weight: bold;
+}
+.cardWrapInner {
+    /* background-color: linen; */
+    width: 240px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 30px;
+    text-align: center;
+}
+.cardWrapInner h4 {
+    font-size: 17px;
+    font-weight: bold;
+}
+.cardWrapInner h5 {
+    font-size: 14px;
+    color: gray;
+}
+.cardWrapInner img {
+    background-color: lightgrey;
+    padding: 15px;
+    border-radius: 50%;
+}
+.cardWrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0px;
+}
+.line {
+    width: 15vw;
+}
+.bottomheading {
+    padding: 0px 30px;
+    margin-top: 30px;
+}
+.bottomheading h2 {
+    color: #6a53ea;
+    font-weight: bold;
+}
+
+.emailWrap {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    background-color: rgba(11, 3, 56, 0.1);
+    width: 120px;
+    justify-content: space-around;
+    border-radius: 30px;
+}
+
+.inviteWrap {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 30px;
+    border: 1px solid #6a53ea;
+    align-items: center;
+    height: 50px;
+    border-radius: 30px;
+    padding: 0px 5px;
+}
+.inviteWrapInner {
+    display: flex;
+    align-items: center;
+}
+.inpWrap input {
+    width: 400px;
+    padding-left: 10px;
+    border: 0px;
+    margin-left: 20px;
+    outline: none;
+}
+.sendBtn {
+    background-color: #6a53ea;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+.shareReferralWrap {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px;
+    align-items: center;
+}
+.shareReferralLeft {
+    display: flex;
+    width: 80%;
+    background-color: rgba(11, 3, 56, 0.1);
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0px 20px;
+    border-radius: 30px;
+}
+.shareReferralLeft h4 {
+    color: #6a53ea;
+}
+.shareReferralLeft input {
+    width: 50vw;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.shareReferralRight {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+.shareReferralRight img {
+    padding: 10px;
+    background-color: rgba(11, 3, 56, 0.1);
+    border-radius: 50%;
+}
+.fbIcon {
+    padding: 10px 22px !important;
+    background-color: rgba(11, 3, 56, 0.1);
+    border-radius: 50%;
+}
+
+@media (max-width: 1350px) {
+    .shareReferralLeft {
+        width: 75%;
+    }
+}
+@media (max-width: 1250px) {
+    .shareReferralLeft input {
+        width: 500px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .shareReferralRight img {
+        width: 50px;
+        height: 50px;
+    }
+    .fbIcon {
+        width: 60px !important;
+    }
+    .cardWrapInner img {
+        width: 60px;
+    }
+    .cardWrapInner h4 {
+        font-size: 15px;
+    }
+    .cardWrapInner h5 {
+        font-size: 12px;
+    }
+    .line {
+        width: 12vw;
+    }
+}
+@media (max-width: 900px) {
+    .shareReferralLeft input {
+        /* background-color: red; */
+        width: 400px;
+    }
+    .shareReferralLeft {
+        width: 75%;
+    }
+    .shareReferralRight {
+        width: 25%;
+    }
+}
+@media (max-width: 700px) {
+    .shareReferralWrap {
+        flex-direction: column;
+    }
+    .shareReferralLeft {
+        width: 100%;
+    }
+    .shareReferralRight {
+        width: 50%;
+        margin: 20px 0px;
+    }
+    .line {
+        display: none;
+    }
+    .cardWrap {
+        flex-direction: column;
+    }
+    .cardWrapInner img {
+        width: 100px;
+    }
+    .cardWrapInner h4 {
+        font-size: 24px;
+    }
+    .cardWrapInner h5 {
+        font-size: 15px;
+    }
+    .cardWrapInner {
+        margin: 20px 0px;
+    }
+    .inpWrap input {
+        width: 285px;
+    }
+}
+
+@media (max-width: 600px) {
+    .inpWrap input {
+        width: 200px;
+    }
+    .shareReferralLeft input {
+        width: 300px;
+    }
+    .sendBtn {
+        background-color: #6a53ea;
+        color: #fff;
+        padding: 10px 15px;
+        border-radius: 30px;
+    }
+}
+@media (max-width: 500px) {
+    .shareReferralLeft input {
+        width: 250px;
+    }
+    .inpWrap input {
+        width: 145px;
+        /* background-color: red; */
+    }
+    .heading {
+        text-align: center;
+    }
+}
+@media (max-width: 420px) {
+    .shareReferralLeft input {
+        width: 200px;
+    }
+    .inviteWrap {
+        margin: 20px 10px;
+    }
+    .inpWrap input {
+        margin-left: 10px;
+    }
+    .shareReferralWrap {
+        margin: 10px 10px;
+    }
+}

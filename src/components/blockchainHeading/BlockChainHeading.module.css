@@ -1,0 +1,140 @@
+.mainWrap {
+    position: relative;
+    /* margin: 150px auto; */
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    /* background-color: lightcoral; */
+    justify-content: flex-end;
+    line-height: 1.5;
+    margin-bottom: -180px;
+    /* margin-right: 10%; */
+}
+
+.mainWrap img {
+    position: absolute;
+    /* margin-left: 10%; */
+    top: 0;
+    left: 300px;
+}
+
+.mainWrap h2 {
+    text-align: center;
+    color: var(--purpleShadeOne);
+    font-weight: bold !important;
+    font-size: 40px !important;
+}
+.mainWrap h3 {
+    text-align: center;
+    color: var(--purpleShadeTwo);
+    font-size: 22px;
+}
+.mainWrap span {
+    color: var(--themePink);
+    font-weight: bold !important;
+}
+.mainWrap h4 {
+    text-align: center;
+}
+
+@media (max-width: 1500px) {
+    .mainWrap h2 {
+        font-size: 32px !important;
+    }
+    .mainWrap h3 {
+        font-size: 20px !important;
+    }
+    .mainWrap {
+        margin-bottom: -130px;
+    }
+    .mainWrap img {
+        left: 220px;
+        width: 250px;
+        top: 50px;
+    }
+}
+@media (max-width: 1400px) {
+    .mainWrap {
+        margin-bottom: -110px;
+    }
+}
+@media (max-width: 1280px) {
+    .mainWrap h2 {
+        font-size: 22px;
+    }
+    .mainWrap h3 {
+        font-size: 16px;
+    }
+    .mainWrap h4 {
+        font-size: 12px;
+    }
+    .mainWrap img {
+        width: 200px;
+    }
+    .mainWrap {
+        margin-bottom: -100px;
+    }
+    .mainWrap img {
+        left: 240px;
+        top: 100px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .mainWrap {
+        margin-bottom: -70px;
+    }
+    .mainWrap img {
+        left: 170px;
+    }
+}
+
+@media (max-width: 800px) {
+    .mainWrap {
+        margin-bottom: -30px;
+        line-height: 1.3;
+    }
+    .mainWrap h3 {
+        font-size: 15px;
+    }
+    .mainWrap h4 {
+        font-size: 11px;
+    }
+    .mainWrap img {
+        /* border: 1px solid black; */
+        left: 35%;
+        top: 60px;
+    }
+}
+
+@media (max-width: 500px) {
+    .mainWrap img {
+        /* border: 1px solid black; */
+        left: 20%;
+        top: 30px;
+    }
+    .mainWrap h2 {
+        font-size: 25px !important;
+        font-weight: bold !important;
+    }
+    .mainWrap h3 {
+        font-size: 16px !important;
+        padding: 0px 10%;
+    }
+    .mainWrap h4 {
+        font-size: 12px !important;
+        padding: 0px 10%;
+    }
+    .mainWrap {
+        margin-bottom: -25px;
+    }
+}
+
+@media (max-width: 400px) {
+    .mainWrap {
+        margin-bottom: -20px;
+    }
+    .mainWrap h3 {
+        padding: 0 8%;
+    }
+}

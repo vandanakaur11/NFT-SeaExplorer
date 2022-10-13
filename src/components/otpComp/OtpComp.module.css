@@ -1,0 +1,24 @@
+@media (max-width: 550px) {
+    .optDesign input {
+        height: 40px !important;
+        border: 2px solid var(--purpleShadeOne) !important;
+    }
+}
+@media (max-width: 500px) {
+    .optDesign input {
+        height: 35px !important;
+        width: 35px !important;
+    }
+}
+@media (max-width: 450px) {
+    .optDesign input {
+        height: 30px !important;
+        width: 30px !important;
+    }
+}
+@media (max-width: 420px) {
+    .optDesign input {
+        height: 25px !important;
+        width: 25px !important;
+    }
+}

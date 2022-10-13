@@ -1,0 +1,415 @@
+.forMobile {
+    display: none;
+}
+
+.MainHeading {
+    color: #6a53ea;
+    font-size: 1.9rem;
+    font-weight: bold;
+    margin: 1% 1%;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+.chatapp {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    background-color: #ffff;
+    width: 99%;
+    border-radius: 10px;
+    box-shadow: 8px 4px 14px rgba(0, 0, 0, 0.1);
+}
+.searchDiv {
+    /* width: 20%; */
+
+    border: 1px solid #6a53ea;
+    border-radius: 20px;
+    height: 40px !important;
+    padding: 0% 5%;
+    margin-bottom: 5%;
+    margin-top: 10px;
+    margin-left: 5px;
+    display: flex;
+}
+.searchInput {
+    border: none;
+    background-color: rgba(146, 139, 139, 0);
+    width: 100%;
+}
+.searchInput:focus {
+    border: none;
+    outline: none;
+}
+
+.searchInput::placeholder {
+    color: #6a53ea;
+    font-size: 15px;
+}
+.searchIcon {
+    width: 10%;
+    margin-right: 8px;
+}
+.signleContact {
+    display: flex;
+    border-bottom: 1px solid #6a53ea;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.Avatar {
+    margin: 0 auto;
+    /* background-color: #6a53ea; */
+    width: 50px;
+    height: 50px;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 50px; */
+    margin-bottom: 5px;
+    /* font-size: 1.5rem; */
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+.name {
+    color: #6a53ea;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.frontMessage {
+    color: #847fa6;
+    font-size: 14px;
+}
+.contactlist {
+    /* width: 20%; */
+    height: 44rem;
+    overflow-y: scroll;
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: #fcfcfc;
+}
+.chatContainer {
+    /* padding-top: 10px; */
+    margin-left: 5px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    /* border: #6A53EA solid 1px; */
+}
+.InnerContainer {
+    height: 90%;
+}
+.chatname {
+    color: #6a53ea;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+}
+.you {
+    display: flex;
+    float: left;
+    width: 50%;
+    align-items: center;
+    /* border: #6A53EA solid 1px; */
+}
+.messageAvatar {
+    /* background-color: #6a53ea; */
+    /* color: #ffff; */
+    width: 40px !important;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-right: 2px;
+    /* position:absolute */
+}
+.Youmessage {
+    background-color: #0b03381e;
+    font-family: "Courier New", Courier, monospace !important;
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    border-radius: 15px;
+    color: #6a53ea;
+    word-wrap: break-word;
+    font-size: 15px;
+    flex-grow: 1;
+    /* border: #6A53EA solid 1px; */
+    min-width: 150px;
+    max-width: 463px;
+    /* margin-left: 20%; */
+    margin: 5px !important;
+}
+
+.me {
+    display: flex;
+    float: right;
+    width: 50%;
+    align-items: center;
+    /* border: #6A53EA solid 1px; */
+    align-self: flex-end;
+    justify-content: end;
+    margin-right: 10px;
+}
+.MemessageAvatar {
+    /* background-color: #6a53ea; */
+    /* color: #ffff; */
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    /* margin-left: 2px; */
+}
+.MEmessage {
+    background-color: #6a53ea;
+    font-family: "Courier New", Courier, monospace !important;
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    border-radius: 15px;
+    color: #ffff;
+    word-wrap: break-word;
+    font-size: 15px;
+    flex-grow: 1;
+    /* border: #6A53EA solid 1px; */
+    min-width: 150px;
+    max-width: 463px;
+    /* margin-left: 20%; */
+    margin: 5px !important;
+}
+.messageTpyeContainer {
+    /* padding: 40px; */
+    display: flex;
+    /* justify-content: s; */
+    align-items: center;
+    padding: 0px 2%;
+}
+.typeMessage {
+    border: none;
+    background-color: #847fa64d;
+    width: 90vw;
+    height: 3.5rem;
+    border-radius: 25px;
+    padding-left: 25px;
+    font-size: 17px;
+}
+.typeMessage:focus {
+    outline: none;
+}
+.typeMessage::placeholder {
+    color: #6a53ea;
+    font-size: 17px;
+}
+.sendBtn {
+    width: 5%;
+    margin-left: 1%;
+    width: 50px;
+}
+.messageTpyeContainerMobile {
+    position: fixed;
+    bottom: 10px;
+    display: flex;
+}
+
+@media (max-width: 1450px) {
+    .contactSection {
+        /* border: 1px solid black; */
+        width: 20vw;
+    }
+    .InnerContainer {
+        /* border: 1px solid black; */
+        width: 60vw;
+        margin-left: 50px;
+    }
+    .messageTpyeContainer {
+        width: 60vw;
+        margin-left: 60px;
+    }
+}
+@media (max-width: 1300px) {
+    .contactSection {
+        /* border: 1px solid black; */
+        width: 25vw;
+    }
+    .InnerContainer {
+        /* border: 1px solid black; */
+        width: 55vw;
+        margin-left: 110px;
+    }
+    .messageTpyeContainer {
+        width: 55vw;
+        margin-left: 120px;
+    }
+    .MEmessage {
+        font-size: 13px;
+    }
+    .Youmessage {
+        font-size: 13px;
+    }
+    .MemessageAvatar {
+        font-size: 13px;
+        border-radius: 50%;
+        width: 50px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .InnerContainer {
+        width: 58vw;
+        margin-left: 90px;
+    }
+}
+@media (max-width: 1100px) {
+    .InnerContainer {
+        width: 68vw;
+        margin-left: 85px;
+        /* border: 1px solid black; */
+    }
+    .contactSection {
+        /* border: 1px solid black; */
+        width: 28vw;
+    }
+    .messageTpyeContainer {
+        width: 65vw;
+        margin-left: 10vw;
+    }
+}
+@media (max-width: 950px) {
+    .forDesktop {
+        display: none;
+    }
+    .forMobile {
+        display: block;
+    }
+    .contactSection {
+        /* border: 1px solid black; */
+        width: 100vw;
+    }
+    .searchDivMobile {
+        /* width: 20%; */
+        background-color: rgba(146, 139, 139, 0.282);
+        border-radius: 20px;
+        height: 50px !important;
+        padding: 10px 5%;
+        margin-bottom: 5%;
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        display: flex;
+        width: 97vw;
+    }
+    .contactlistMobile {
+    }
+    .signleContactMobile {
+        justify-content: space-between;
+        display: flex;
+        border-bottom: 1px solid #6a53ea;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .signleContactInner {
+        display: flex;
+        padding: 0px 10px;
+    }
+    .Avatar {
+        margin-right: 10px;
+    }
+    .chatContainerMobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 82vh;
+        /* background-color: red; */
+        overflow: hidden;
+    }
+    .InnerContainerMobile {
+        /* border: 1px solid black; */
+        width: 99vw;
+        /* margin-left: 50px; */
+        margin: 0px 10px;
+        /* margin-right: 20px; */
+    }
+    .messageTpyeContainerMobile {
+        /* border: 1px solid black; */
+        text-align: center;
+    }
+}
+@media (max-width: 800px) {
+    .messageTpyeContainerMobile {
+        margin-left: 2%;
+        text-align: center;
+    }
+}
+@media (max-width: 700px) {
+    .MemessageAvatar {
+        width: 60px;
+    }
+    .me {
+        width: 60%;
+    }
+    .you {
+        width: 60%;
+    }
+    .searchDivMobile {
+        width: 96vw;
+    }
+    .typeMessage {
+        width: 85vw !important;
+    }
+}
+@media (max-width: 600px) {
+    .MemessageAvatar {
+        width: 70px !important;
+    }
+    .messageAvatar {
+        width: 50px !important;
+    }
+}
+@media (max-width: 500px) {
+    .MemessageAvatar {
+        width: 80px !important;
+    }
+    .messageAvatar {
+        width: 50px !important;
+    }
+    .me {
+        width: 65%;
+    }
+    .you {
+        width: 65%;
+    }
+}
+
+@media (max-width: 420px) {
+    .me {
+        width: 70%;
+    }
+    .you {
+        width: 70%;
+    }
+    .typeMessage {
+        width: 80%;
+    }
+    .sendBtn {
+        width: 50px;
+    }
+    .messageTpyeContainerMobile {
+        margin-bottom: 10px;
+        margin-left: 15px;
+    }
+    .typeMessage {
+        width: 80vw !important;
+    }
+}
+@media (max-width: 400px) {
+    .messageTpyeContainerMobile {
+        margin-left: 10px;
+    }
+}

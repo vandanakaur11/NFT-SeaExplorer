@@ -1,0 +1,115 @@
+.main {
+    /* height: 350px; */
+    /* background-color: linen; */
+    width: 55vw;
+    border-radius: 10px;
+}
+.heading {
+    background-color: #6a53ea;
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px 20px;
+}
+
+.headingBottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid lightgrey;
+}
+.headingBottom div {
+    font-size: 16px;
+    font-weight: bold;
+    color: #6a53ea;
+    width: 100px;
+}
+
+.tableStyle {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid lightgrey;
+    align-items: center;
+}
+.tableStyle div {
+    width: 100px;
+}
+.viewAll {
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 20px;
+    color: #6a53ea;
+    font-weight: bold;
+}
+.statusBtnPending {
+    color: white;
+    padding: 10px;
+    background-color: #0b0338;
+    text-align: center;
+    border-radius: 30px;
+    opacity: 0.4;
+}
+.statusBtnActive {
+    color: white;
+    padding: 10px;
+    background-color: #6a53ea;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.statusBtnNotActive {
+    color: white;
+    padding: 10px;
+    background-color: #ff00c7;
+    text-align: center;
+    border-radius: 30px;
+}
+
+@media (max-width: 1100px) {
+    .main {
+        width: 80vw;
+    }
+}
+@media (max-width: 800px) {
+    .main {
+        width: 90vw;
+    }
+}
+@media (max-width: 700px) {
+    .main {
+        width: 94vw !important;
+    }
+}
+@media (max-width: 600px) {
+    .headingBottom {
+        width: 550px;
+    }
+    .tableStyle {
+        width: 550px;
+    }
+    .headingBottom div {
+        font-size: 12px;
+    }
+    .tableStyle div {
+        font-size: 12px;
+    }
+    .statusBtnPending {
+        padding: 5px;
+    }
+    .statusBtnActive {
+        padding: 5px;
+    }
+
+    .statusBtnNotActive {
+        padding: 5px;
+    }
+    .tableFlow {
+        overflow-x: scroll;
+    }
+    .viewAll {
+        width: 520px;
+    }
+}

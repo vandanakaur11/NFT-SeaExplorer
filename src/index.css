@@ -1,0 +1,78 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap");
+@font-face {
+    font-family: "Avenir";
+    src: url("../src/fonts/Metropolis-Light.otf");
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 6px;
+    scrollbar-width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: white;
+    box-shadow: inset 1px 2px 3px 6px rgba(0, 0, 0, 0.25);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--purpleShadeTwo);
+    border-radius: 10px;
+}
+
+:root {
+    --purpleShadeOne: #7c1df2;
+    --purpleShadeTwo: #bf59f7;
+    --purpleShadeThree: #ce76fc;
+    --purpleShadeFour: #dcb5fb;
+    --themePink: #ff00c7;
+    --fontPrimary: "Roboto";
+    --fontSecondary: "Poppins", sans-serif;
+    --fontPrimary: "Poppins', sans-serif";
+}
+
+body {
+    margin: 0;
+    font-family: "Avenir" !important;
+    /* font-family: "Poppins", sans-serif, sans-serif-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Poppins", "Ubuntu",
+        "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.ant-drawer-body {
+    /* background: linear-gradient(#7c1df2, #bf59f7); */
+    /* background-color: #ecd6fd; */
+    background-image: url(/src/images/sidebarBack.png);
+}
+.ant-drawer-header {
+    /* background-color: var(--themePink) !important; */
+    background: linear-gradient(#7c1df2, #bf59f7) !important;
+}
+.ant-drawer-title {
+    color: white !important;
+    visibility: hidden !important;
+}
+.ant-drawer-close {
+    background-color: transparent !important;
+
+    /* border-radius: 50% !important; */
+}
+.anticon svg {
+    color: white !important;
+}
+/* .ant-btn-primary {
+    background-color: transparent !important;
+    border: 0px !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+    background: none !important;
+} */
+.ant-modal-header {
+    display: none;
+}
+.ant-modal-footer {
+    display: none !important;
+}

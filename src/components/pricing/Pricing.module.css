@@ -1,0 +1,138 @@
+.card {
+    width: 20%;
+    border: 1px solid lightgray;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #f8f8ff;
+    animation-name: blinking;
+    animation-duration: 1s;
+    animation-iteration-count: 200;
+}
+@keyframes blinking {
+    50% {
+        border-color: #dcb5fb;
+    }
+}
+
+.card h1 {
+    color: var(--purpleShadeOne);
+    font-weight: bold !important;
+}
+.card h3 {
+    font-weight: bold !important;
+}
+.card h5 {
+    font-weight: bold !important;
+}
+.iconWrap {
+    display: flex;
+    margin: 20px auto;
+    /* border: 1px solid black; */
+    width: 90%;
+    justify-content: flex-start;
+}
+.iconWrap img {
+    margin-right: 5px;
+}
+
+.btn {
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--themePink);
+    border: 1px solid var(--themePink);
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 6px;
+    margin: 0 auto;
+}
+/* .btn:hover {
+    cursor: pointer;
+    background-color: var(--themePink);
+    color: white;
+} */
+.btn:hover {
+    cursor: pointer;
+    /* color: var(--purpleShadeTwo); */
+    background-color: var(--themePink);
+    color: white;
+    transition: all 2s;
+    -webkit-transform: rotateY(-360deg);
+    -ms-transform: rotateY(-360deg);
+    transform: rotateY(-360deg);
+}
+
+.mainWrap {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+.heading {
+    text-align: center;
+    font-weight: bold !important;
+    font-size: 35px;
+    color: var(--purpleShadeOne);
+    margin-bottom: 60px;
+}
+
+@media (max-width: 1300px) {
+    .card {
+        width: 22%;
+    }
+    .text {
+        font-size: 12px;
+    }
+    .iconWrap {
+        align-items: center;
+        margin: 12px 0px;
+        padding: 0px 10px;
+    }
+    .btn {
+        font-size: 20px;
+        padding: 4px;
+    }
+    .heading {
+        font-size: 30px;
+    }
+    .card h1 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .mainWrap {
+        /* flex-direction: column;
+        align-items: center; */
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .card {
+        width: 340px;
+        margin: 30px auto;
+    }
+    .text {
+        font-size: 15px;
+    }
+    .iconWrap {
+        justify-content: flex-start;
+        padding: 0px 20px;
+    }
+}
+@media (max-width: 800px) {
+    .mainWrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* display: grid;
+        grid-template-columns: auto auto; */
+    }
+}
+
+@media (max-width: 400px) {
+    .card {
+        width: 320px;
+    }
+}

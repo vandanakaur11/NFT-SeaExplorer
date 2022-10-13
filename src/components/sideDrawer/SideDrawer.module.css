@@ -1,0 +1,114 @@
+.menuIcon {
+    /* background-color: var(--themePink); */
+    color: white;
+    font-size: 20px;
+}
+.optionWrap {
+    margin-bottom: 40px;
+}
+
+.optionWrap div {
+    font-size: 20px;
+    /* color: var(--themePink); */
+    color: var(--purpleShadeOne);
+    margin: 10px 0px;
+    padding: 5px;
+    font-weight: normal !important;
+    padding-left: 15px;
+}
+.optionWrap div:hover {
+    background-color: var(--themePink);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btnWrap {
+    display: flex;
+    justify-content: space-between;
+}
+.btnWrap div {
+    font-size: 20px;
+    /* background-color: var(--themePink); */
+    width: 150px;
+    text-align: center;
+    color: white !important;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0px;
+    /* border: 1px solid var(--purpleShadeOne); */
+    background-color: var(--purpleShadeOne);
+    font-weight: normal !important;
+}
+.btnWrap div:hover {
+    background-color: var(--themePink);
+    cursor: pointer;
+    color: white;
+    border: 0px;
+}
+
+.seaBtn {
+    font-size: 20px;
+    background-color: var(--purpleShadeOne) !important;
+    width: 200px;
+    text-align: center;
+    color: white !important;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0px;
+    /* border: 1px solid var(--purpleShadeOne); */
+    background-color: transparent;
+    margin: 20px auto;
+    font-weight: normal !important;
+}
+.seaBtn:hover {
+    background-color: var(--themePink) !important;
+    cursor: pointer;
+    color: white;
+    border: 0px;
+}
+.sideHeading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px 0px;
+    margin-bottom: 40px;
+}
+.sideHeading div {
+    font-size: 20px;
+    color: var(--themePink);
+    font-weight: bold !important;
+}
+.sideHeading:hover {
+    cursor: pointer;
+}
+.sideHeading2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px 0px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.sideHeading2:hover {
+    cursor: pointer;
+}
+.sideHeading2 div {
+    font-size: 20px;
+    color: var(--themePink);
+    font-weight: bold !important;
+}
+.sideoption {
+    display: flex;
+    align-items: center;
+    margin: 15px 0px;
+}
+.sideoption div {
+    font-size: 17px;
+    font-weight: bold;
+    color: var(--purpleShadeOne);
+    margin-left: 15px;
+}
+.sideoption div:hover {
+    cursor: pointer;
+    color: var(--purpleShadeTwo);
+}

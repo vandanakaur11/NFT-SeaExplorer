@@ -1,0 +1,180 @@
+.main {
+    height: 70vh;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+.Cont {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid lightgrey;
+}
+.leftWrap {
+    display: flex;
+    /* background-color: red; */
+    width: 145px;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftWrap h3 {
+    font-weight: bold;
+    color: #6a53ea;
+}
+.leftWrap h5 {
+    color: #6a53ea;
+}
+.leftWrap img {
+    height: 50px;
+    background-color: lightgrey;
+    border-radius: 50%;
+    padding: 3px;
+}
+.rightWrap {
+    display: flex;
+    /* background-color: red; */
+    width: 85px;
+    justify-content: space-between;
+    align-items: center;
+}
+.rightWrap img {
+    width: 25px;
+    height: 25px;
+}
+.addImg {
+    width: 60px;
+    background-color: #ff00c7;
+    padding: 10px;
+    border-radius: 50%;
+
+    margin: 5px 0px;
+    /* margin-right: 3px; */
+}
+.addImgWrap {
+    /* background-color: linen; */
+    height: 300px;
+    /* width: 200px; */
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+    align-items: flex-end;
+}
+.stripeStyle {
+    width: 45px;
+    background-color: #ff00c7;
+    padding: 10px;
+    border-radius: 50%;
+}
+.stripeStyleWrap {
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 0px;
+}
+.cardStyle {
+    width: 45px;
+    background-color: #ff00c7;
+    padding: 10px;
+    border-radius: 50%;
+}
+.cardStyleWrap {
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 0px;
+}
+
+.payStyle {
+    width: 45px;
+    background-color: #ff00c7;
+    padding: 10px;
+    border-radius: 50%;
+}
+.payStyleWrap {
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 0px;
+}
+.showingOpt {
+    visibility: hidden;
+}
+
+/* ////////////////////////////// for card */
+.cardHeading {
+    font-size: 22px;
+    font-weight: bold;
+    color: #6a53ea;
+    margin: 20px 20px;
+}
+.mainCard {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.inputWrapTwo {
+    margin-bottom: 30px;
+    padding: 0px 20px;
+}
+.inputWrapTwo input {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+.inputWrapTwo h3 {
+    font-size: 15px;
+    font-weight: bold;
+}
+.btnWrap {
+    padding: 0px 20px;
+}
+.btnWrap div {
+    width: 100%;
+    background-color: #ff00c7;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 10px;
+}
+.btnWrap:hover {
+    cursor: pointer;
+}
+.btnWrap2 {
+    padding: 0px 20px;
+    margin: 10px 0px;
+}
+.btnWrap2 div {
+    width: 100%;
+    background-color: lightgrey;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+    color: #ff00c7;
+    border-radius: 10px;
+}
+.btnWrap2:hover {
+    cursor: pointer;
+}
+.checkboxWrap {
+    display: flex;
+    align-items: center;
+    margin: 0px 20px;
+}
+.checkboxWrap div {
+    margin-left: 10px;
+    font-weight: bold;
+}
+/* ////////////////////////////// for card */

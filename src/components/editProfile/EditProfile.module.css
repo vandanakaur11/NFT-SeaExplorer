@@ -1,0 +1,79 @@
+.imgWrap {
+    text-align: center;
+    margin: 10px 0px;
+    margin-bottom: 20px;
+}
+.imgWrap img {
+    width: 100px;
+}
+
+.inputWrapOne {
+    display: flex;
+
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding: 0px 20px;
+    /* border: 1px solid black; */
+}
+.inputWrapOne div input {
+    width: 30vw;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+.inputWrapOne div h3 {
+    font-size: 15px;
+    font-weight: bold;
+}
+.inputWrapTwo {
+    margin-bottom: 30px;
+    padding: 0px 20px;
+}
+.inputWrapTwo input {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+.inputWrapTwo h3 {
+    font-size: 15px;
+    font-weight: bold;
+}
+.btnWrap {
+    padding: 0px 20px;
+}
+.btnWrap div {
+    width: 100%;
+    background-color: #ff00c7;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 10px;
+}
+.btnWrap:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .inputWrapOne div input {
+        width: 40vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .inputWrapOne {
+        display: flex;
+        flex-direction: column;
+    }
+    .inputWrapOne div input {
+        width: 100%;
+    }
+    .inputWrapOne div {
+        margin: 10px 0px;
+    }
+}

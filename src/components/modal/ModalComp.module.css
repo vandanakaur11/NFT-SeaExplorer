@@ -1,0 +1,176 @@
+.iconWrap {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.mainWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: auto;
+    /* border: 1px solid black; */
+    margin: 20px 0px;
+}
+.mainWrap h1 {
+    color: var(--purpleShadeOne);
+    font-weight: bold !important;
+}
+.innerWrap {
+    display: flex;
+    flex-direction: column;
+}
+.innerWrap input {
+    width: 90%;
+    height: 50px;
+    outline: none;
+    border: 0px;
+    /* border: 2px solid var(--purpleShadeOne);
+    border-radius: 8px; */
+    /* margin: 10px 0px; */
+}
+.inpWrapOtp {
+    width: 500px;
+    margin: 0 auto;
+}
+.inpWrap {
+    /* border: 1px solid black; */
+    width: 50vw;
+    height: 55px;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid var(--purpleShadeOne);
+    border-radius: 8px;
+    margin: 10px 0px;
+    align-items: center;
+}
+.inpWrapConfirm {
+    border: 2px solid var(--purpleShadeOne) !important;
+    width: 500px !important;
+    margin: 10px auto !important;
+    height: 55px;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+.innerWrap img {
+    width: 30px;
+    height: 30px;
+}
+
+.modalWrap {
+    width: 70vw !important;
+}
+
+.btn {
+    background-color: var(--themePink);
+    color: white;
+    border: 0px !important;
+    margin: 10px auto !important;
+    border-radius: 8px;
+}
+.btn2 {
+    background-color: var(--themePink);
+    color: white;
+    border: 0px !important;
+    margin: 50px auto 10px auto !important;
+    border-radius: 8px;
+    width: 500px !important;
+}
+.already {
+    cursor: pointer;
+}
+.already span {
+    color: var(--themePink);
+}
+.forgot {
+    justify-content: flex-end;
+    text-align: right;
+    margin: 5px 0px;
+    margin-bottom: 30px;
+    color: var(--purpleShadeOne);
+}
+.forgot:hover {
+    cursor: pointer;
+}
+
+.nftGenDiv h1 {
+    color: var(--purpleShadeOne);
+    font-weight: bold !important;
+    text-align: center;
+}
+.nftGenBtn {
+    color: white;
+    background-color: var(--themePink);
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+.alert {
+    text-align: start;
+    color: var(--themePink);
+    font-size: medium;
+}
+.alert2 {
+    text-align: center;
+    color: var(--themePink);
+    font-size: medium;
+}
+.alert::before {
+    content: "⚠ ";
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media (max-width: 1100px) {
+    .inpWrap {
+        width: 60vw;
+    }
+}
+@media (max-width: 800px) {
+    .inpWrap input {
+        width: 85%;
+    }
+    .inpWrapOtp {
+        width: 450px;
+    }
+    .btn2 {
+        width: 400px !important;
+    }
+}
+@media (max-width: 550px) {
+    .inpWrap input {
+        width: 80%;
+    }
+    .modalWrap {
+        width: 80vw !important;
+    }
+    .inpWrap {
+        width: 70vw;
+    }
+    .nftGenDiv h1 {
+        font-size: 22px;
+    }
+    .btn2 {
+        width: 300px !important;
+    }
+    .inpWrapOtp {
+        width: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+    .btn2 {
+        width: 250px !important;
+    }
+}
+@media (max-width: 400px) {
+    .btn2 {
+        width: 230px !important;
+        height: 40px !important;
+    }
+}

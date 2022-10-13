@@ -1,0 +1,21 @@
+.main {
+    height: 70vh;
+}
+
+.mention {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+    margin: 10px 0px;
+    padding: 5px 20px;
+}
+.mention h3 {
+    font-weight: bold;
+}
+.textHeading {
+    color: #6a53ea;
+    font-weight: bold;
+    margin: 20px 0px;
+    padding: 0px 20px;
+}

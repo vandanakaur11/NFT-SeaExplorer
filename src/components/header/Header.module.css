@@ -1,0 +1,117 @@
+.mainWrap {
+    display: flex;
+    width: 80% !important;
+    /* background-color: green !important; */
+    height: 110px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.logoWrap {
+    width: 30% !important;
+}
+.logoWrap img {
+    width: 180px !important;
+}
+.optionWrap {
+    display: flex;
+    width: 30% !important;
+    justify-content: space-between;
+}
+
+.optionWrap div {
+    color: white;
+    /* font-weight: bold; */
+}
+.optionWrap div:hover {
+    cursor: pointer;
+    color: var(--themePink);
+    /* color: #221f76; */
+    font-weight: bold !important;
+}
+
+.btnWrap {
+    display: flex;
+    width: 24% !important;
+    justify-content: space-between;
+}
+.btnWrap div {
+    color: white;
+    /* border: 1px solid white; */
+    padding: 8px !important;
+    width: 100px !important;
+    text-align: center;
+    border-radius: 8px;
+    background-color: var(--purpleShadeTwo);
+}
+.btnLogin {
+    width: 85px !important;
+}
+.btnWrap div:hover {
+    cursor: pointer;
+    background-color: var(--themePink);
+}
+
+.drawer {
+    display: none;
+}
+
+@media (max-width: 1500px) {
+    .btnWrap {
+        width: 32% !important;
+    }
+    .optionWrap {
+        width: 35% !important;
+    }
+}
+@media (max-width: 1280px) {
+    .btnWrap {
+        width: 30% !important;
+        justify-content: space-evenly;
+    }
+    .optionWrap {
+        width: 40% !important;
+    }
+    .logoWrap {
+        width: 25% !important;
+    }
+    .mainWrap {
+        width: 90% !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .mainWrap {
+        width: 95%;
+    }
+    .btnWrap {
+        width: 35% !important;
+    }
+    .logoWrap {
+        width: 20%;
+    }
+    .optionWrap {
+        width: 45%;
+    }
+}
+@media (max-width: 1100px) {
+    .optionWrap {
+        display: none;
+    }
+    .btnWrap {
+        display: none;
+    }
+    .drawer {
+        display: block;
+        width: 6% !important;
+    }
+}
+@media (max-width: 500px) {
+    .drawer {
+        width: 10% !important;
+    }
+    .logoWrap img {
+        width: 150px !important;
+    }
+}

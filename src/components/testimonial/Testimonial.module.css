@@ -1,0 +1,18 @@
+.main div {
+    text-align: center;
+    color: var(--purpleShadeOne);
+    font-weight: bold !important;
+    font-size: 40px;
+    margin: 50px auto;
+}
+
+.card {
+    width: 75%;
+    margin: 0 auto;
+}
+
+@media (max-width: 1300px) {
+    .main div {
+        font-size: 32px;
+    }
+}

@@ -1,0 +1,104 @@
+.heading {
+    color: #6a53ea;
+    font-size: 36px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    margin-left: 3%;
+    margin-top: 10px;
+    font-weight: 700;
+    line-height: 44px;
+}
+.mainContainer {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin: 2%;
+    box-shadow: 8px 4px 14px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+}
+.navSelected {
+    color: #6a53ea !important;
+    font-weight: bold;
+    font-size: 16px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    margin: 15px 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navSelected:hover {
+    color: #6a53ea !important;
+    font-weight: bold;
+    font-size: 16px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    margin: 15px 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+.nav {
+    color: #ff00c7 !important;
+    font-weight: bold;
+    font-size: 16px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    margin: 15px 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nav:hover {
+    color: #ff00c7 !important;
+    font-weight: bold;
+    font-size: 16px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    margin: 15px 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+.icons {
+    width: 14px;
+    margin-right: 10px;
+}
+.leftpanal {
+    /* background-color: red; */
+}
+.rightpanal {
+    /* background-color: linen; */
+}
+
+@media (max-width: 1000px) {
+    .mainContainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .leftpanal {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 800px) {
+    .leftpanal {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .main {
+        width: 100vw;
+    }
+}
+
+@media (max-width: 450px) {
+    .heading {
+        text-align: center;
+        margin: 5vh 0px;
+    }
+    .main {
+        width: 97.5vw;
+    }
+}
+@media (max-width: 400px) {
+    .main {
+        width: 97.2vw;
+    }
+}

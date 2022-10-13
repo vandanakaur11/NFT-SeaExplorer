@@ -1,0 +1,38 @@
+.textHeading {
+    color: #6a53ea;
+    font-weight: bold;
+    margin: 20px 0px;
+    padding: 0px 20px;
+}
+
+.leftBtn {
+    border: 1px solid #ff00c7;
+    color: #ff00c7;
+    padding: 20px;
+    font-size: 14px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    font-weight: bold;
+}
+.rightBtn {
+    /* border: 1px solid #ff00c7; */
+    color: white;
+    background-color: #ff00c7;
+    padding: 20px;
+    font-size: 14px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.btnWrap {
+    display: flex;
+}
+@media (max-width: 1400px) {
+    .btnWrap {
+        margin-left: 20px;
+    }
+}
